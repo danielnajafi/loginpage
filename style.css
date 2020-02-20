@@ -1,0 +1,134 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/IRANSANSExpanded.woff2);
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    direction: rtl;
+    background-image: url("bg.jpg");
+    font-family: "myFirstFont";
+
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title,
+.sub-title {
+    text-align: center;
+    color: white;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+}
+
+h4 {
+
+    margin: 50px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 60px;
+
+
+}
+
+button {
+
+    width: 300px;
+    height: 50px;
+    background-color: #1D89E4;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    margin: 25px;
+    border-radius: 5px;
+
+
+}
+
+.check-box {
+    width: 300px;
+
+
+
+
+}
+
+.check-box a {
+    float: left;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    margin-top: 6px;
+
+}
+
+.check-box label {
+
+    font-size: 10px;
+    color: white;
+
+
+}
+
+.input-text {
+    position: relative;
+    margin-bottom: 30px;
+    width: 300px;
+    color: white;
+}
+
+.input-text input {
+    width: 100%;
+}
+
+.input-text label {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition-property: bottom font-size;
+    transition: .5s;
+}
+
+.input-text input:focus~label {
+    bottom: 20px;
+    font-size: 15px;
+
+}
+
+.input-text input:focus {
+
+    outline: none;
+
+}
+.input-text span    {
+    left: 0;
+    position: absolute;
+    
+
+
+
+}
